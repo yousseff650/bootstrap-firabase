@@ -1,0 +1,388 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+label {
+    color: red;
+}
+
+.titre-page {
+    text-align: center;
+    color: blue;
+}
+
+.kikou {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    margin-top: 200;
+    margin-left: 700px;
+}
+
+.image {
+    border-radius: 15px;
+}
+
+.test2 {
+    width: 100px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+body {
+    Background-image: Linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), Linear-gradient(127deg, black, black 70.71%), Linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+    background-repeat: no-repeat;
+}
+
+.cover {
+    height: 511px;
+    background-image: url("../img/5.png");
+    text-shadow: 3px 3px black;
+
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: -40px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+ul li a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+#logo {
+    margin-left: -150px;
+    height: 50px;
+    width: 50px;
+}
+
+.image {
+    margin-top: -40px;
+    width: 100%;
+    height: 900px;
+}
+
+.reg {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.photo {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.view {
+    color:  #337ab7;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.view:hover {
+    color: #337ab7;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.more {
+    color: white;
+    font-size: 36px;
+}
+
+.ahri {
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+ 
+}
+
+.ahbet {
+    padding-top: 75px;
+}
+
+#weigth {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px
+}
+
+.hi {
+    display: inline-flex;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-family: initial;
+}
+
+.text {
+    height: 80px;
+    width: 40%;
+    border-radius: 10px;
+    padding-bottom: 16px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+   
+}
+.felsa {
+    text-decoration: none ; 
+
+}
+
+
+.viewMore{
+    text-decoration: none ;
+    
+}
+.photo button{
+    position: relative;   
+    top: -130px;
+    left: -180px;
+}
+
+#fade{
+display:none;
+
+}
+
+.course1{
+    height:250px;
+    /* margin-left:50px !important; */
+    background-image:url('../img/1.png');
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+}
+.course1:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses1{
+    margin-top:120px;
+    
+}
+.btnCourses1Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}
+
+
+.course2{
+    height:250px;
+    background-image:url('../img/2.png');
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+
+}
+.course2:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses2{
+    margin-top:120px;
+    
+}
+
+
+.course3{
+    /* width:250px; */
+    height:250px;
+    /* margin-left:50px; */
+    /* display:inline-block; */
+    background-image:url('../img/3.png');
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+
+}
+.course3:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses3{
+    margin-top:120px;
+    /* display:none; */
+}
+
+.course6{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image:url('../img/6.png');
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+
+}
+.course6:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses6{
+    margin-top:120px;
+    /* display:none; */
+    
+}
+.btnCourses6Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}
+.course7{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image:url('../img/7.png');
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    
+}
+.course7:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses7{
+    margin-top:120px;
+    /* display:none; */
+    
+}
+.btnCourses7Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}
+
+.course8{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image:url('../img/8.png');
+    background-size: cover;
+    overflow:hidden;
+}
+.course8:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses8{
+    margin-top:120px;
+    /* display:none; */
+    
+}
+.btnCourses8Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}
+
+.course9{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image:url('../img/9.png');
+    background-size: cover;
+    overflow:hidden;
+}
+.course9:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses9{
+    margin-top:120px;
+    /* display:none; */
+    
+}
+.btnCourses9Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}
+
+.course10{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image:url('../img/10.png');
+    background-size: cover;
+    overflow:hidden;
+}
+.course10:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses10{
+    margin-top:120px;
+    /* display:none; */
+    
+}
+.btnCourses10Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}
+
+.course11{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+    display:inline-block;
+    background-image:url('../img/11.png');
+    background-size: cover;
+    overflow:hidden;
+}
+.course11:hover{
+    background-color:black;
+    opacity: 0.5;
+}
+.btnCourses11{
+    margin-top:120px;
+    /* display:none; */
+    
+}
+.btnCourses11Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}

@@ -1,0 +1,110 @@
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid" style="background-color: darkred">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="img/go.png" width="50px" height="50px" style="margin-top:-10px;"></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="cover">
+    <br>
+    <h1 class="kikou">Courses</h1>
+  </div>
+  <center>
+    <div class="ahbet row">
+      <div class="course1 col-md-3  col-xs-6 col-xs-offset-3 col-xs-offset-1 ">
+        <button class="btnCourses1">View more</button>
+      </div>
+      <div class="course2 col-md-3  col-xs-6 col-xs-offset-3 col-md-offset-1">
+        <button class="btnCourses2">View more</button>
+      </div>
+      <div class="course3 col-md-3  col-xs-6 col-xs-offset-3 col-md-offset-1">
+        <button class="btnCourses3">View more</button>
+      </div>
+    </div>
+    <div class="ahbet row">
+      <div class="course6 col-md-3  col-xs-6 col-xs-offset-3 col-xs-offset-1">
+        <button class="btnCourses6">View more</button>
+      </div>
+      <div class="course7 col-md-3  col-xs-6 col-xs-offset-3 col-xs-offset-1">
+        <button class="btnCourses7">View more</button>
+      </div>
+      <div class="course8 col-md-3  col-xs-6 col-xs-offset-3 col-xs-offset-1">
+        <button class="btnCourses8 ">View more</button>
+      </div>
+    </div>
+    <div class="ahbet row" >
+      <div class="course9 col-md-3  col-xs-6 col-xs-offset-3 col-xs-offset-1">
+        <button class="btnCourses9">View more</button>
+      </div>
+      <div class=" course10 col-md-3  col-xs-6 col-xs-offset-3 col-xs-offset-1">
+        <button class="btnCourses10">View more</button>
+      </div>
+      <div class=" course11 col-md-3  col-xs-6 col-xs-offset-3 col-xs-offset-1">
+        <button class="btnCourses11">View more</button>
+      </div>
+    </div>
+    </div>
+  </center>
+  <center>
+    <h2 id='weigth'>Feedback</h2>
+  </center>
+  <center>
+    <div class="hi">
+      <form action="">
+        <button onclick="changeBold()" style="  margin-right: 3px">B</button>
+        <button onclick="changeItalic()" style=" margin-right: 3px">I</button>
+        <button onclick="souligner() " style="margin-right: 3px">underline</button>
+        <button onclick="colorchange()">color</button>
+        <select id="selector" onchange="changeFontSise()">
+          <option value="20px">20px</option>
+          <option value="40px">40px</option>
+          <option value="60px">60px</option>
+        </select>
+
+        <select id="type" onchange="typeTexte()">
+          <option value="Arial">arial</option>
+          <option value="Tahoma ">Tahoma</option>
+          <option value="Open Sans">Open Sans</option>
+        </select>
+    </div>
+    <br>
+    <textarea id="texte" class="text" cols=" 50" row="20"></textarea>
+    </form>
+
+  </center>
+  <div id="ex1" class="modal">
+    <p>Thanks for clicking. That felt good.</p>
+    <a href="#" rel="modal:close">Close</a>
+  </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>

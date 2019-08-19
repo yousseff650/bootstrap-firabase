@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="img/go.png" width="50px" height="50px"
+                        style="margin-top:-10px;"></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="cover">
+        <h1 class="kikou">Contact</h1>
+    </div>
+
+    </center>
+    <center>
+        <form id="contactForm" onsubmit="submitF()">
+            <label> Name </label><input type="text" placeholder="Your name" id="name" required> <br>
+            <label> track </label>
+
+            <select>
+                <option>web</option>
+                <option>Ai</option>
+                <option>Game</option>
+            </select> <br>
+
+            <label> Email address </label><input type="text" placeholder=" name@exampl.com" id="EmailAddress" required>
+            <br>
+            <label> phone number </label><input type="number" s placeholder=" Your phone number" id="phoneNumber" required>
+            <br>
+            <input type="submit" value="submit" class="titre-page">
+            <!-- <button class="titre-page" type="submit" value="submit">submit </button> -->
+            <br>
+        </form>
+    </center>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/6.4.0/firebase.js"></script>
+<script src="js/main.js"></script>
+
+</html>
